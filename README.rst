@@ -9,17 +9,17 @@ Work in progress!
 Installation
 ------------
 
+The latest trafilatura libraries are required, they can be installed straight from the repositories:
 
-Linux Debian/Ubuntu
-~~~~~~~~~~~~~~~~~~~~
+- ``pip3 install -U git+https://github.com/adbar/trafilatura.git``
+- ``pip3 install -U git+https://github.com/adbar/trafilatura_gui.git``
+
+
+Beforehand, Linux Debian/Ubuntu only
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 - sudo apt install libgtk-3-dev
 - optional: to save compilation time, use a wxpython wheel from https://extras.wxpython.org/wxPython4/extras/linux/gtk3/
-
-Install latest trafilatura libraries straight from the repositories:
-
-- pip3 install -U git+https://github.com/adbar/trafilatura.git
-- pip3 install -U git+https://github.com/adbar/trafilatura_gui.git
 
 
 Getting started
@@ -27,4 +27,9 @@ Getting started
 
 Just write ``trafilatura_gui`` in a terminal.
 
+
+.. image:: screenshot.png
+    :target: https://github.com/adbar/trafilatura_gui
+    :alt: Screenshot of the interface
+    :align: center
 
