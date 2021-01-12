@@ -99,7 +99,7 @@ def main():
                         help="use hash value as output file name instead of random default",
                         action="store_true")
     group2.add_argument('--verbose', '-v', action='count', default=0,
-                        help="increase output verbosity (-v or -vv)",
+                        help="increase logging verbosity (up to 2)",
                         gooey_options={
                             'validator':{
                                 'test': '0 <= int(user_input) <= 2',
@@ -126,6 +126,9 @@ def main():
     group4.add_argument("--formatting",
                         help="include text formatting (bold, italic, etc.)",
                         action="store_true")
+    group4.add_argument("--links",
+                        help="include links along with their targets",
+                        action="store_true")
     group4.add_argument("--nocomments",
                         help="don't output any comments",
                         action="store_false")  # false = no comments
@@ -150,9 +153,6 @@ def main():
     group4.add_argument("--config-file",
                         help="override standard extraction parameters with a custom config file",
                         widget='FileChooser')
-    group4.add_argument('--timeout',
-                        help="use timeout for file conversion to prevent bugs",
-                        action="store_true")
 
     # https://docs.python.org/3/library/argparse.html#argparse.ArgumentParser.add_mutually_exclusive_group
     group5_ex.add_argument('-out', '--output-format',
