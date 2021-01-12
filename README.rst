@@ -14,13 +14,13 @@ General instructions
 
 
 1. Open a terminal window:
-   - `Open the command-line interface <https://tutorial.djangogirls.org/en/intro_to_command_line/#open-the-command-line-interface>`_
+    - `Open the command-line interface <https://tutorial.djangogirls.org/en/intro_to_command_line/#open-the-command-line-interface>`_
 2. Install Python:
-   - Enter ``python3 --version`` (or if doesn't work ``python --version``) in the terminal window to see if it's already installed (the answer should read ``Python 3.X.X`` where X is a number)
-   - `Python installation <https://tutorial.djangogirls.org/en/python_installation/#python-installation>`_
+    - Enter ``python3 --version`` (or if doesn't work ``python --version``) in the terminal window to see if it's already installed (the answer should read ``Python 3.X.X`` where X is a number)
+    - `Python installation <https://tutorial.djangogirls.org/en/python_installation/#python-installation>`_
 3. Install the necessary software versions straight from the repositories by copying the following instructions into the terminal window (use ``pip3`` or ``pip`` otherwise):
-   - ``pip3 install -U git+https://github.com/adbar/trafilatura.git``
-   - ``pip3 install -U git+https://github.com/adbar/trafilatura_gui.git``
+    - ``pip3 install -U git+https://github.com/adbar/trafilatura.git``
+    - ``pip3 install -U git+https://github.com/adbar/trafilatura_gui.git``
 
 All instructions for the terminal window are followed by pressing the `enter key <https://en.wikipedia.org/wiki/Enter_key>`_.
 
@@ -47,7 +47,7 @@ Linux only (Debian/Ubuntu)
 Getting started
 ---------------
 
-Just write ``trafilatura_gui`` in a terminal window and press the `enter key <https://en.wikipedia.org/wiki/Enter_key>`_.
+Just type ``trafilatura_gui`` in a terminal window and press the `enter key <https://en.wikipedia.org/wiki/Enter_key>`_.
 
 .. image:: screenshot.png
     :target: https://github.com/adbar/trafilatura_gui
