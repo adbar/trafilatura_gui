@@ -11,7 +11,6 @@ from gooey import Gooey, GooeyParser
 from trafilatura.cli import process_args
 from trafilatura.settings import DOWNLOAD_THREADS
 
-from . import __author__, __license__, __version__
 
 DESCRIPTION = 'Web scraping tool for text discovery and extraction'
 
@@ -30,11 +29,11 @@ DESCRIPTION = 'Web scraping tool for text discovery and extraction'
                 'menuTitle': 'About',
                 'name': 'Trafilatura-GUI',
                 'description': DESCRIPTION,
-                'version': __version__,
+                'version': '0.0.1',
                 'copyright': '2021',
                 'website': 'https://github.com/adbar/trafilatura_gui',
-                'developer': __author__,
-                'license': __license__
+                'developer': 'Adrien Barbaresi',
+                'license': 'GNU GPL v3+'
             }, {
                 'type': 'Link',
                 'menuTitle': 'Visit the website',
