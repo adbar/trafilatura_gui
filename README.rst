@@ -1,6 +1,17 @@
 trafilatura_gui: Web scraping tool for text discovery and retrieval
 ===================================================================
 
+
+**REPOSITORY MOVED** to https://github.com/adbar/trafilatura
+
+See installation instructions here: https://trafilatura.readthedocs.io/en/latest/installation.html
+
+
+
+Archived version
+----------------
+
+
 Graphical User Interface (GUI) for `trafilatura <https://github.com/adbar/trafilatura>`_. This tool for text discovery and retrieval seamlessly downloads, parses, and scrapes web page data: it can extract metadata, main body text and comments while preserving parts of the text formatting and page structure. The output can be converted to different formats (TXT, CSV, JSON, XML and XML-TEI).
 
 This is especially useful in cases where the other usage options don’t appear to be convenient. This type of interface allows for interact with trafilatura through graphical icons and menus instead of text-based user interfaces, typed command labels or text navigation.
